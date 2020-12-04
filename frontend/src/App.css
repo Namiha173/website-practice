@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Start css of login form */
+
+/* div tag of login form */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #9e9e9e;
+}
+
+/*Form tag */
+.login-form {
+  height: 60vh;
+  width: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #616972;
+  border-radius: 5px;
+}
+
+/* logo of login form */
+.login-img {
+  width: 50px;
+  position: absolute;
+  top: 2rem;
+}
+
+/* start TextField */
+.login-user {
+  position: absolute;
+  top: 2rem;
+}
+
+.login-password {
+  position: absolute;
+  top: 3rem;
+}
+/* end of Textfield */
+
+/* login-form heading */
+.login-header {
+  color: #23313f;
+  position: absolute;
+  left: 7.5rem;
+  top: 6rem;
+}
+
+/* Login-form Button */
+.button-form {
+  width: 14rem;
+  position: absolute;
+  /* left: 0.2rem; */
+  bottom: -4rem;
+}
+/* End css of login form */
+
+/* start of register form */
+
+/* div tag of login form */
+.Register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #9e9e9e;
+}
+
+/* form tag*/
+.Register-form {
+  height: 90vh;
+  width: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #616972;
+  border-radius: 5px;
+}
+
+/* logo of register form */
+.Register-img {
+  width: 50px;
+  position: absolute;
+  top: 1.5rem;
+  left: 12rem;
+}
+
+/* start TextField */
+.Register-username {
+  position: absolute;
+  top: 7rem;
+}
+
+.Register-email {
+  position: absolute;
+  top: 6rem;
+}
+
+.Register-password {
+  position: absolute;
+  top: 4rem;
+}
+
+.Register-confirmpassword {
+  position: absolute;
+  top: 2rem;
+}
+
+.Register-phoneno {
+  position: absolute;
+  top: -1.5rem;
+}
+
+/* end of Textfield */
+
+/* register-form heading */
+.Register-header {
+  color: #23313f;
+  position: absolute;
+  left: 9rem;
+  top: 5.5rem;
+}
+
+/* register-form Button */
+.Register-button {
+  width: 14rem;
+  position: absolute;
+  /* left: 0.2rem; */
+  bottom: 3rem;
+}
+/* end of register form */
+
+/* start of Shopping center */
+
+/* start of home page */
+.cool {
+  color: #535c68;
+  position: relative;
+  left: 2rem;
+  font-size: 1.5rem;
+}
+
+nav {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items {
+  width: 15rem;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  color: #535c68;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+a::hover {
+  cursor: pointer;
+}
+
+/* ham */
+
+
+
+
+
+
+
+
+
+
+.cloth-img {
+  width: 100%;
+  height: 90vh;
+}
+
+.images {
+  position: relative;
+}
+
+.discount {
+  position: absolute;
+  top: 18.5rem;
+  left: 76rem;
+  color: #30336b;
+  font-size: 250%;
+}
+
+.megasale {
+  position: absolute;
+  top: 22rem;
+  left: 73rem;
+  color: #96456a;
+  font-size: 325%;
+  font-family: cursive;
+}
+/* end od home page */
+
+/* start of men page */
+
+.Men {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.men-section {
+  width: 20%;
+  height: 100%;
+}
+
+.men-img {
+  width: 12.3rem;
+  height: 14.7rem;
+}
+
+.men-para {
+  font-size: 14px;
+  color: #878787;
+}
+
+.men-h3 {
+  font-size: 14px;
+  color: #212121;
+  font-weight: 200;
+}
+
+.men-h1 {
+  font-size: 16px;
+  color: #212121;
+  font-weight: bolder;
+  padding-bottom: 1rem;
+}
+/* men page end */
+
+/* women page start */
+.Women {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.women-section {
+  width: 20%;
+  height: 100%;
+}
+
+.women-img {
+  width: 12.3rem;
+  height: 14.7rem;
+}
+
+.women-para {
+  font-size: 14px;
+  color: #878787;
+}
+
+.women-h3 {
+  font-size: 14px;
+  color: #212121;
+  font-weight: 200;
+}
+
+.women-h1 {
+  font-size: 16px;
+  color: #212121;
+  font-weight: bolder;
+  padding-bottom: 1rem;
+}
+/* women page end */
+
+.items .active-class {
+  color: #212121;
+}
+
+.items .active-class::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #96456a;
+  position: relative;
+  bottom: 0;
+}
+
+.items li a {
+  color: #96456a;
+  transition: all 0.3s ease-in-out;
+}
+
+.items li a::hover {
+  color: #55e6c1;
+}
